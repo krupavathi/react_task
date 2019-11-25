@@ -3,6 +3,7 @@ import './Signup.css';
 
 
 class Signup extends Component {
+    
     render() {
         return (
             <div className="signupdiv">
@@ -14,7 +15,7 @@ class Signup extends Component {
                 <input type="text" placeholder="enter password" className="inputfield1" /><br></br><br></br>
                 <input type="text" placeholder="confirm your password" className="inputfield1" /><br></br><br></br>
                 <input type="checkbox"/>I agree to term and condition<br></br><br></br>
-                <button>Signup</button>
+               <button><a href="./signin"> Signin</a></button>
 
             </div>
         );
